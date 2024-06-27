@@ -1,6 +1,6 @@
 <flowise-fullchatbot></flowise-fullchatbot>
 <script type="module">
-    import Chatbot from "https://cdn.jsdelivr.net/gh/ah-saleh/iHQ-chat@latest/dist/web.js"
+    import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
     Chatbot.initFull({
         chatflowid: "ddffa5f8-b919-40f7-96bd-54b213916ed2",
         apiHost: "https://flowiseai-railway-production-92512.up.railway.app",
@@ -29,7 +29,13 @@
                     backgroundColor: "#ffffff",
                     textColor: "#303235",
                     sendButtonColor: "#3B81F6",
-                }
+                },
+                footer: {
+                textColor: '#303235',
+                text: 'Powered by',
+                company: 'LTP Labs',
+                companyLink: 'https://ltplabs.com',
+                },
             },
             button: {
                     backgroundColor: "#FF6B00" ,
